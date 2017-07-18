@@ -3,7 +3,7 @@
 
 
 // Functions
-
+function Calculator();
 
 
 
