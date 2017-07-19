@@ -48,3 +48,28 @@ function un (){
     var value = document.getElementById("resultat").value;
     document.getElementById("resultat").value = un + value;
 }
+function plus(){
+	var plus = document.getElementById("plus").value;
+	var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = value + " " + plus + " ";
+}
+function egal(){
+	var value = document.getElementById("resultat").value;
+	var finalResult = eval(value);
+    document.getElementById("resultat").value = value + " = " + finalResult;
+}
+function moins(){
+	var moins = document.getElementById("moins").value;
+	var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = value + " " + moins + " ";
+}
+function multiplier(){
+    var multiplier = document.getElementById("multiplier").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = value + " " + multiplier + " ";
+}
+function diviser(){
+    var diviser = document.getElementById("diviser").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = value + " " + diviser + " ";
+}
