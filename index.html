@@ -27,25 +27,25 @@
             <h1>Calculatrice Marien</h1>
             <div id="calculatrice">
                 <div id="header">
-                    <input type="text" id="number" value="Calculatrice" autocomplete="off" disabled />
+                    <input type="text" id="resultat" value="" autocomplete="off"/>
                 </div>
                 <div id="body">
-                                 <div class="buttons">7</div>
-                    <div class="buttons">8</div>
-                    <div class="buttons">9</div>
-                    <div class="buttons">/</div><br/>
-                    <div class="buttons">4</div>
-                    <div class="buttons">5</div>
-                    <div class="buttons">6</div>
-                    <div class="buttons">*</div><br/>
-                    <div class="buttons">1</div>
-                    <div class="buttons">2</div>
-                    <div class="buttons">3</div>
-                    <div class="buttons">-</div><br/>
-                    <div class="buttons">0</div>
-                    <div class="buttons">.</div>
-                    <div class="buttons">=</div>
-                    <div class="buttons">+</div>
+                <button  value="C" id="clear"onclick = removeValue(); class="btn3">C</button><br/>
+                <button  value="7" id="sept"onclick = sept(); class="btn3">7</button>
+                <button  value="8" id="huit"onclick = huit(); class="btn3">8</button>
+                <button  value="9" id="neuf"onclick= neuf(); class="btn3">9</button>
+                <button  value="/" id="diviser" class="btn3">/</button></br>
+                <button  value="4" id="quatre"onclick = quatre(); class="btn3">4</button>
+                <button  value="5" id="cinq"onclick = cinq(); class="btn3">5</button>
+                <button  value="6" id="six"onclick = six(); class="btn3">6</button>
+                <button  value="*" id="multiplier" class="btn3">*</button></br>
+                <button  value="1" id="un"onclick = un(); class="btn3">1</button>
+                <button  value="2" id="deux"onclick = deux(); class="btn3">2</button>
+                <button  value="3" id="trois"onclick = trois(); class="btn3">3</button>
+                <button  value="0" id="zero"onclick = zero(); class="btn3">0</button></br>
+                <button  value="." id="point" class="btn3">.</button>
+                <button  value="=" id="egal" class="btn3">=</button>
+                <button  value="+" id="plus" class="btn3">+</button>
                 </div>
             </div>
         </div>
