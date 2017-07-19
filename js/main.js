@@ -48,6 +48,11 @@ function un (){
     var value = document.getElementById("resultat").value;
     document.getElementById("resultat").value = un + value;
 }
+function zero(){
+    var zero = document.getElementById("zero").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = zero + value;
+}
 function plus(){
 	var plus = document.getElementById("plus").value;
 	var value = document.getElementById("resultat").value;
@@ -72,4 +77,9 @@ function diviser(){
     var diviser = document.getElementById("diviser").value;
     var value = document.getElementById("resultat").value;
     document.getElementById("resultat").value = value + " " + diviser + " ";
+}
+function point(){
+    var point = document.getElementById("point").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = value + point;
 }
