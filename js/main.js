@@ -1,6 +1,3 @@
-// Variables
-var display = document.getElementById("header");
-
 // Functions
 function removeValue(){
     document.getElementById("resultat").value = "";
@@ -26,5 +23,28 @@ function six(){
     var value = document.getElementById("resultat").value;
     document.getElementById("resultat").value = six + value;
 }
-
-// Script Part
+function cinq(){
+    var cinq = document.getElementById("cinq").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = cinq + value;
+}
+function quatre(){
+    var quatre = document.getElementById("quatre").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = quatre + value;
+}
+function trois(){
+    var trois = document.getElementById("trois").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = trois + value;
+}
+function deux(){
+    var deux = document.getElementById("deux").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = deux + value;
+}
+function un (){
+    var un = document.getElementById("un").value;
+    var value = document.getElementById("resultat").value;
+    document.getElementById("resultat").value = un + value;
+}
